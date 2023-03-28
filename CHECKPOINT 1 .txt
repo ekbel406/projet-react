@@ -1,0 +1,28 @@
+CHECKPOINT 1 :
+var sum=0;
+var v =0;
+word =0;
+const string1 = "A string primitive.";
+for (i=0;i<string1.length;i++);
+if string1[i]!=" "
+ if string1[i] in upper["a","e","i","u","o"]
+ v=v+1;
+else 
+sum+=1;
+word=sum+1;
+end
+
+chekpoint 1 part2:
+
+sum =0;
+TAB1 : ARRAY OF integer[100];
+TAB2 : ARRAY OF integer[100];
+for (i=0; i<TAB1.length;i++);
+ for(j=0;i<TAB2.length;i++);
+  if (TAB1[i]!=TAB2[j]) 
+   sum=TAB1[i]+TAB2[j];
+   else 
+   return sum;
+
+  end 
+  
